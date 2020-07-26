@@ -28,22 +28,22 @@ public class Prueba {
         // TODO code application logic here
         //Ingresar
         CursoDao  cursoD = new cursoDaoImp();
-       Curso cursos=new Curso(0,"Mantemiendo de computadora 2");
+       Curso cursos=new Curso(0,"PROGRAMACION1");
         cursoD.ingresar(cursos);
         //Actualizar
-         /*Curso cursos1=new Curso(3,"redes de computadora");
+         /*Curso cursos1=new Curso(3,"PROGRAMACION3");
         cursoD.actualizar(cursos1);*/
         // Eliminar 
-        //Curso cursos2=new Curso(6,"Expresion oral");
+        //Curso cursos2=new Curso(6,"LENGUAJE");
         //cursoD.eliminar(6);
       EstudiantesDao  estuD = new estudiantesDaoImp();
-       // Estudiantes estudiantes=new Estudiantes(0,"juan","alcivar","juanac@gmail.com");
+       // Estudiantes estudiantes=new Estudiantes(0,"Eduardo","Olvera","Eduard23@gmail.com");
         //estuD.ingresarE(estudiantes);
         //Actualizar
-         /*Estudiantes estu1=new Estudiantes(1,"andrade17@hotmail.com");
+         /*Estudiantes estu1=new Estudiantes(1,"Eduardooo1@hotmail.com");
         estuD.actualizarE(estu1);*/
         // Eliminar 
-        //Estudiantes estudiantes=new Estudiantes(1,"carlos","andrade","carlos17@gmail.com");
+        //Estudiantes estudiantes=new Estudiantes(1,"Eduardo","olvera","Eduardooo1@hotmail.com");
           //estuD.eliminarE(1);
           
            CursoEstudianteDao  cestuD = new CursoEstudiantesDaoImp();
